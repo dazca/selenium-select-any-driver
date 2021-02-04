@@ -1,4 +1,5 @@
-# Select any Driver for Selenium ![Selenium](/img/selenium.png =50x50)
+# Select any Driver for Selenium <img src="/img/selenium.png" width="60" height="60">
+
 Automatically selects any driver for selenium that is on the system and can be installed.
 Compatible devices are: Firefox, Chrome, Edge, IE, Opera
 
