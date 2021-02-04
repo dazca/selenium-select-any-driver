@@ -2,7 +2,7 @@
 Automatically selects any driver for selenium that is on the system and can be installed.
 Compatible devices are: Firefox, Chrome, Edge, IE, Opera
 
-
+<img src="/img/firefox.svg =100x100" width="100" height="100">
 ![firefox](/img/firefox.svg =100x100)![chrome](/img/chrome.png =100x100)![edge](/img/edge.png =100x100)![IE](/img/ie.png =100x100)![Opera](/img/opera.png =100x100)
 
 ## Installation
