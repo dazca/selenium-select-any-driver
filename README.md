@@ -8,32 +8,23 @@ Compatible devices are: Firefox, Chrome, Edge, IE, Opera
 
 
 
- <div class="row">
-  <div class="column">
+<p float="left">
     <img src="/img/firefox.png" width="100" height="100">
-  </div>
-  <div class="column">
     <img src="/img/chrome.png" width="100" height="100">
-  </div>
-  <div class="column">
     <img src="/img/edge.png" width="100" height="100">
-  </div>
-  <div class="column">
     <img src="/img/ie.png" width="100" height="100">
-  </div>
-  <div class="column">
     <img src="/img/opera.png" width="100" height="100">
-  </div>
-</div> 
+</p>
 
 ## Installation
 Clone the repo, move inside the directory and type:
-`pip install -e .`
-Press enter.
+```
+pip install -e .
+```
 
 ## Usage
 In your selenium project, use:
-```
+```python
 from any_driver_selenium import obtain_selenium_driver
 
 driver = obtain_selenium_driver()
@@ -43,7 +34,7 @@ Then you can start using the automatically selected driver.
 
 ## Example
 
-```
+```python
 from any_driver_selenium import obtain_selenium_driver
 url = input('Enter the url : ')
 driver = obtain_selenium_driver()
