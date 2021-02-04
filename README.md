@@ -1,9 +1,9 @@
-# Select any Driver for Selenium ![Selenium](selenium.png =50x50)
+# Select any Driver for Selenium ![Selenium](img/selenium.png =50x50)
 Automatically selects any driver for selenium that is on the system and can be installed.
 Compatible devices are: Firefox, Chrome, Edge, IE, Opera
 
 
-![firefox](firefox.svg =100x100)![chrome](chrome.png =100x100)![edge](edge.png =100x100)![IE](ie.png =100x100)![Opera](opera.png =100x100)
+![firefox](img/firefox.svg =100x100)![chrome](img/chrome.png =100x100)![edge](img/edge.png =100x100)![IE](img/ie.png =100x100)![Opera](img/opera.png =100x100)
 
 ## Installation
 Clone the repo, move inside the directory and type:
