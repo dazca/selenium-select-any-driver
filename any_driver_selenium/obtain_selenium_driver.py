@@ -68,6 +68,7 @@ def obtain_selenium_driver():
                         clas = obtain_webdriver_platform_class(avail, members)
                         # print(clas,)
                         # try:
+                        
                         dpath = driver_module[1]().install()
                         # except Exception as e:
                         #     print("Failed to install driver:", e)
@@ -93,7 +94,7 @@ def obtain_selenium_driver():
             pass
     
     if not driver_sucess:
-        raise(IOError("Could not install none of following drivers:", avail_drivers))
+        raise(IOError("No available driver:", avail_drivers))
 
     return driver
 

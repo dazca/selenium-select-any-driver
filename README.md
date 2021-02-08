@@ -3,12 +3,6 @@
 Automatically selects any driver for selenium that is on the system and can be installed.
 Compatible devices are: Firefox, Chrome, Edge, IE, Opera
 
-
-
-
-
-
-
 <p float="left">
     <img src="/img/firefox.png" width="100" height="100">
     <img src="/img/chrome.png" width="100" height="100">
@@ -18,9 +12,16 @@ Compatible devices are: Firefox, Chrome, Edge, IE, Opera
 </p>
 
 ## Installation
-Clone the repo, move inside the directory and type:
+Clone the repo, move inside the directory and install through pip:
 ```
-pip install -e .
+pip install .
+```
+
+## Update
+Move to the download folder and do:
+```bash
+git pull
+pip install .
 ```
 
 ## Usage
@@ -34,7 +35,6 @@ driver = obtain_selenium_driver()
 Then you can start using the automatically selected driver.
 
 ## Example
-
 ```python
 from any_driver_selenium import obtain_selenium_driver
 url = input('Enter the url : ')
