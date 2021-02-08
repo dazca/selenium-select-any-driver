@@ -16,5 +16,5 @@ setup(name='Obtain Selenium Driver',
       author='Dani Azemar',
       author_email='dani.azemar@gmail.com',
       packages=['any_driver_selenium'],
-      required_packages=['selenium', 'webdriver_manager']
+      install_requires=['selenium', 'webdriver_manager']
      )
